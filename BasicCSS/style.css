@@ -1,0 +1,10 @@
+h1{
+  color: red;
+}
+#green {
+  color: #00FF00;
+}
+.blue {
+  color: #0000FF;
+  background-color: red;
+}
