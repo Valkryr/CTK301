@@ -1,0 +1,30 @@
+h1{
+  color:white;
+}
+.purpleback{
+  background-color: #99aaff;
+}
+h2{
+  color:#0d0dff;
+}
+.yellowtext{
+  color:#ffb530;
+}
+h3{
+  background-color: #ffff00;
+}
+.redtext{
+  color: #ff3a3a;
+}
+h4{
+  background-color: #006400;
+  color: #e2ee00;
+}
+.lgreenback{
+  background-color: lightgreen;
+}
+.yellowback{
+    background-color: #ffff00;
+}
+a {text-decoration: none; color:green;}
+a:hover {text-decoration: underline; color:red;}
