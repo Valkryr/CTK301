@@ -1,11 +1,4 @@
-#redID{
-  color:red;
-}
 .blackClass{
-  background-color: black;
-}
-h2{
-  color: #FFCCCB;
   background-color: black;
 }
 a{
@@ -16,4 +9,29 @@ a:hover{
 }
 a:visited{
   color:green;
+}
+.customtext{
+  font-family: sans-serif;
+}
+.centertext{
+  text-align: center;
+}
+.justifytext{
+  text-align: justify;
+}
+h1, h2, h3, h4, h5, h6{
+  color:orange;
+  font-style: italic;
+  font-weight: normal;
+}
+.imgbox{
+  border: 5px solid black;
+  padding: 10px 10px 10px 10px;
+  margin: 20px 20px 20px 20px;
+  background-color: white;
+}
+body {
+  background-image: url(ISU-Logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
