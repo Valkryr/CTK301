@@ -1,3 +1,62 @@
 body{
   background-image: url(a5bg.png);
+  background-position: left;
+}
+h1{
+  font-family: Helvetica;
+  font-weight: normal;
+  background-color: white;
+  padding:15px;
+}
+h2{
+  font-family: Helvetica;
+  font-weight: bold;
+  border-bottom: 5px solid black;
+}
+div{
+  background-color: white;
+  padding:5px;
+  margin-top: 30px;
+}
+footer{
+  background-color: darkblue;
+  color: white;
+  font-style: italic;
+  text-align: center;
+  font-family: Verdana;
+  border: 3px solid white;
+  padding: 20px;
+  margin-top: 30px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav li{
+  display: inline-block;
+}
+nav li a{
+  padding: 12px;
+  margin-right: 10px;
+  display: block;
+  color: white;
+  text-decoration: none;
+  background-color: darkblue;
+  text-align: left;
+  width: 125px;
+  font-weight: normal;
+}
+nav li a:hover{
+  background-color: blue;
+  color:white;
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover{
+  text-decoration: underline;
+  color:red;
 }
