@@ -1,0 +1,16 @@
+nav li {
+  background-color: darkblue;
+  margin: 10px;
+  padding: 0px;
+  width: 200px;
+  display: inline-block;
+}
+#wrapper{
+  margin: 1em auto;
+  padding: 0px;
+  width: 961px;
+  border:  5px solid black;
+  display: grid;
+  background-color: white;
+  grid-template-columns: repeat(6,1fr);
+}
