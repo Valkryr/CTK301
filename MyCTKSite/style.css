@@ -1,0 +1,132 @@
+#wrapper {
+  margin: 1em auto;
+  padding: 0px;
+  width: 1200;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  border: 5px solid #3A015C;
+  background-color: #F1DEDE;
+}
+body{
+  background-image: linear-gradient(to left top, #3a015c, #422876, #4b458e, #5761a3, #677db7);
+  font-family: 'Chivo Mono', monospace;
+  font-weight: lighter;
+}
+header{
+  font-weight:bold;
+  font-style: italic;
+  color: #3A015C;
+  text-align: center;
+  font-size: 48px;
+  grid-column: span 10;
+}
+.emailform{
+  font-size: 20px;
+  text-align: center;
+  color:#3A015C;
+  grid-column: span 12;
+  margin-top: 0px;
+}
+main{
+  color: #F1DEDE;
+}
+footer{
+  border: 1px solid #3A015C;
+  color: #F1DEDE;
+  background-color: #3A015C;
+  text-align: center;
+  grid-column: span 12;
+  padding: 5px;
+}
+.mainboxleft{
+  background-color: #677DB7;
+  grid-column: span 6;
+  border: 1px solid #3A015C;
+  margin-right: 10px;
+  color: #F1DEDE;
+  padding: 5px;
+  font-size: 25px;
+}
+.mainboxright{
+  background-color: #677DB7;
+  grid-column: span 6;
+  border: 1px solid #3A015C;
+  margin-left: 10px;
+  color: #F1DEDE;
+  padding: 5px;
+}
+h3{
+  color: #F1DEDE;
+  background-color: #677DB7;
+  border: 1px solid #3A015C;
+  grid-column: span 12;
+  text-align: center;
+  padding: 5px;
+}
+nav ul{
+  list-style-type: none;
+  margin-bottom: 5px;
+  padding: 0;
+  grid-column: span 2;
+}
+nav{
+  margin-left: 0;
+}
+nav li{
+  display: block;
+  padding: 5px;
+}
+nav li a{
+  padding: 10px;
+  display: block;
+  color: #F1DEDE;
+  text-decoration: none;
+  background-image: linear-gradient(to left top, #3a015c, #422876, #4b458e, #5761a3, #677db7);
+  text-align: center;
+  width: 125px;
+  font-weight: bold;
+  border: 1px solid #3A015C;
+}
+nav li a:hover{
+  padding: 10px;
+  display: block;
+  color: #F1DEDE;
+  text-decoration: none;
+  background-image: linear-gradient(to right bottom, #3a015c, #422876, #4b458e, #5761a3, #677db7);
+  text-align: center;
+  width: 125px;
+  font-weight: bold;
+  border: 1px solid #3A015C;
+}
+.carousel{
+  color: #F1DEDE;
+ --carousel-button-bg: #3A015C;
+ --carousel-button-svg-width: 20px;
+ --carousel-button-svg-height: 20px;
+ --carousel-button-svg-stroke-width: 2.5;
+ grid-column: span 12;
+}
+.carousel__slide {
+  display: block;
+  align-items: center;
+  background-color: #F1DEDE;
+}
+.projectbox{
+  background-color: #677DB7;
+  grid-column: span 12;
+  border: 1px solid #3A015C;
+  margin-right: 10px;
+  color: #F1DEDE;
+  font-size: 18px;
+}
+img{
+  border: 2px solid #3A015C;
+}
+.imgformat{
+  float: left;
+  margin-right: 5px;
+}
+.rickroll{
+  text-align: right;
+  font-size: 5px;
+}
